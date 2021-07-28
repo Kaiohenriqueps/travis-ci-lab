@@ -8,9 +8,3 @@ install:
 script:
     - python -m pytest --cov=./src/ tests/
     - python -m coverage report --fail-under=80
-branches:
-    only:
-        - master
-        - staging
-        - qa
-        - dev
